@@ -37,7 +37,7 @@ a{
 }
 
 .container{
-  width: 80%;
+  width: clamp(300px, 80%, 700px);
   height: 100vh;
   margin: 0 auto;
   display: flex;
